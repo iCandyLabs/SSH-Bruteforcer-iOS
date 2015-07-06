@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AF6856D1B4A3E1C006C65BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF6856C1B4A3E1C006C65BE /* main.m */; };
+		3AF685701B4A3E1C006C65BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF6856F1B4A3E1C006C65BE /* AppDelegate.m */; };
+		3AF685731B4A3E1C006C65BE /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF685721B4A3E1C006C65BE /* MasterViewController.m */; };
+		3AF685761B4A3E1C006C65BE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF685751B4A3E1C006C65BE /* DetailViewController.m */; };
+		3AF685791B4A3E1C006C65BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF685771B4A3E1C006C65BE /* Main.storyboard */; };
+		3AF6857B1B4A3E1C006C65BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AF6857A1B4A3E1C006C65BE /* Images.xcassets */; };
+		3AF6857E1B4A3E1C006C65BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AF6857C1B4A3E1C006C65BE /* LaunchScreen.xib */; };
+		3AF6858A1B4A3E1C006C65BE /* SSH_BruteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF685891B4A3E1C006C65BE /* SSH_BruteTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AF685841B4A3E1C006C65BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AF6855F1B4A3E1C006C65BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AF685661B4A3E1C006C65BE;
+			remoteInfo = "SSH Brute";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3AF685671B4A3E1C006C65BE /* SSH Brute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SSH Brute.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AF6856B1B4A3E1C006C65BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AF6856C1B4A3E1C006C65BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3AF6856E1B4A3E1C006C65BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3AF6856F1B4A3E1C006C65BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3AF685711B4A3E1C006C65BE /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		3AF685721B4A3E1C006C65BE /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		3AF685741B4A3E1C006C65BE /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3AF685751B4A3E1C006C65BE /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3AF685781B4A3E1C006C65BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AF6857A1B4A3E1C006C65BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3AF6857D1B4A3E1C006C65BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3AF685831B4A3E1C006C65BE /* SSH BruteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SSH BruteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AF685881B4A3E1C006C65BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AF685891B4A3E1C006C65BE /* SSH_BruteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSH_BruteTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AF685641B4A3E1C006C65BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AF685801B4A3E1C006C65BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AF6855E1B4A3E1C006C65BE = {
+			isa = PBXGroup;
+			children = (
+				3AF685691B4A3E1C006C65BE /* SSH Brute */,
+				3AF685861B4A3E1C006C65BE /* SSH BruteTests */,
+				3AF685681B4A3E1C006C65BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AF685681B4A3E1C006C65BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AF685671B4A3E1C006C65BE /* SSH Brute.app */,
+				3AF685831B4A3E1C006C65BE /* SSH BruteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AF685691B4A3E1C006C65BE /* SSH Brute */ = {
+			isa = PBXGroup;
+			children = (
+				3AF6856E1B4A3E1C006C65BE /* AppDelegate.h */,
+				3AF6856F1B4A3E1C006C65BE /* AppDelegate.m */,
+				3AF685711B4A3E1C006C65BE /* MasterViewController.h */,
+				3AF685721B4A3E1C006C65BE /* MasterViewController.m */,
+				3AF685741B4A3E1C006C65BE /* DetailViewController.h */,
+				3AF685751B4A3E1C006C65BE /* DetailViewController.m */,
+				3AF685771B4A3E1C006C65BE /* Main.storyboard */,
+				3AF6857A1B4A3E1C006C65BE /* Images.xcassets */,
+				3AF6857C1B4A3E1C006C65BE /* LaunchScreen.xib */,
+				3AF6856A1B4A3E1C006C65BE /* Supporting Files */,
+			);
+			path = "SSH Brute";
+			sourceTree = "<group>";
+		};
+		3AF6856A1B4A3E1C006C65BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AF6856B1B4A3E1C006C65BE /* Info.plist */,
+				3AF6856C1B4A3E1C006C65BE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3AF685861B4A3E1C006C65BE /* SSH BruteTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AF685891B4A3E1C006C65BE /* SSH_BruteTests.m */,
+				3AF685871B4A3E1C006C65BE /* Supporting Files */,
+			);
+			path = "SSH BruteTests";
+			sourceTree = "<group>";
+		};
+		3AF685871B4A3E1C006C65BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AF685881B4A3E1C006C65BE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AF685661B4A3E1C006C65BE /* SSH Brute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AF6858D1B4A3E1C006C65BE /* Build configuration list for PBXNativeTarget "SSH Brute" */;
+			buildPhases = (
+				3AF685631B4A3E1C006C65BE /* Sources */,
+				3AF685641B4A3E1C006C65BE /* Frameworks */,
+				3AF685651B4A3E1C006C65BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SSH Brute";
+			productName = "SSH Brute";
+			productReference = 3AF685671B4A3E1C006C65BE /* SSH Brute.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AF685821B4A3E1C006C65BE /* SSH BruteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AF685901B4A3E1C006C65BE /* Build configuration list for PBXNativeTarget "SSH BruteTests" */;
+			buildPhases = (
+				3AF6857F1B4A3E1C006C65BE /* Sources */,
+				3AF685801B4A3E1C006C65BE /* Frameworks */,
+				3AF685811B4A3E1C006C65BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AF685851B4A3E1C006C65BE /* PBXTargetDependency */,
+			);
+			name = "SSH BruteTests";
+			productName = "SSH BruteTests";
+			productReference = 3AF685831B4A3E1C006C65BE /* SSH BruteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AF6855F1B4A3E1C006C65BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Sam Sheffres";
+				TargetAttributes = {
+					3AF685661B4A3E1C006C65BE = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					3AF685821B4A3E1C006C65BE = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 3AF685661B4A3E1C006C65BE;
+					};
+				};
+			};
+			buildConfigurationList = 3AF685621B4A3E1C006C65BE /* Build configuration list for PBXProject "SSH Brute" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AF6855E1B4A3E1C006C65BE;
+			productRefGroup = 3AF685681B4A3E1C006C65BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AF685661B4A3E1C006C65BE /* SSH Brute */,
+				3AF685821B4A3E1C006C65BE /* SSH BruteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AF685651B4A3E1C006C65BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF685791B4A3E1C006C65BE /* Main.storyboard in Resources */,
+				3AF6857E1B4A3E1C006C65BE /* LaunchScreen.xib in Resources */,
+				3AF6857B1B4A3E1C006C65BE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AF685811B4A3E1C006C65BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AF685631B4A3E1C006C65BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF685701B4A3E1C006C65BE /* AppDelegate.m in Sources */,
+				3AF685731B4A3E1C006C65BE /* MasterViewController.m in Sources */,
+				3AF6856D1B4A3E1C006C65BE /* main.m in Sources */,
+				3AF685761B4A3E1C006C65BE /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AF6857F1B4A3E1C006C65BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF6858A1B4A3E1C006C65BE /* SSH_BruteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AF685851B4A3E1C006C65BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AF685661B4A3E1C006C65BE /* SSH Brute */;
+			targetProxy = 3AF685841B4A3E1C006C65BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3AF685771B4A3E1C006C65BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AF685781B4A3E1C006C65BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AF6857C1B4A3E1C006C65BE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AF6857D1B4A3E1C006C65BE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AF6858B1B4A3E1C006C65BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3AF6858C1B4A3E1C006C65BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AF6858E1B4A3E1C006C65BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SSH Brute/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3AF6858F1B4A3E1C006C65BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SSH Brute/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3AF685911B4A3E1C006C65BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SSH BruteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSH Brute.app/SSH Brute";
+			};
+			name = Debug;
+		};
+		3AF685921B4A3E1C006C65BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SSH BruteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSH Brute.app/SSH Brute";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AF685621B4A3E1C006C65BE /* Build configuration list for PBXProject "SSH Brute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AF6858B1B4A3E1C006C65BE /* Debug */,
+				3AF6858C1B4A3E1C006C65BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AF6858D1B4A3E1C006C65BE /* Build configuration list for PBXNativeTarget "SSH Brute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AF6858E1B4A3E1C006C65BE /* Debug */,
+				3AF6858F1B4A3E1C006C65BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3AF685901B4A3E1C006C65BE /* Build configuration list for PBXNativeTarget "SSH BruteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AF685911B4A3E1C006C65BE /* Debug */,
+				3AF685921B4A3E1C006C65BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AF6855F1B4A3E1C006C65BE /* Project object */;
+}
